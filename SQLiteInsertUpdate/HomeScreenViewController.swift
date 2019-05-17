@@ -37,6 +37,7 @@ class HomeScreenViewController :ViewController{
     }
   
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        //tmp
         //Initialize Reuseable cell
         let cell:StudentCell = tableView.dequeueReusableCellWithIdentifier("cell") as! StudentCell
         
